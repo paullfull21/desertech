@@ -1,0 +1,221 @@
+extend ./layout.jade
+block content
+  div(id="index-banner" class="parallax-container")
+      div(class="section no-pad-bot")
+        div(class="container")
+          br
+          br
+          h1(class="header center blue-text animate-in" data-anim-type="fade-in-down-big" data-anim-delay="60") Desertech
+          div(class="row center")
+            h5(class="header col s12 light animate-in" data-anim-type="zoom-in-up-large" data-anim-delay="80") Desarrollo de software para tu problema digital.
+          div(class="row center")
+            div(class="col s12 m4")
+              a(href="https://www.facebook.com/Desertech" target="_blank" class="waves-effect waves-light btn-large socialBtn") Facebook
+                i(class="material-icons left fa fa-facebook")
+            div(class="col s12 m4")
+              a(href="https://twitter.com/desertechmx" target="_blank" class="waves-effect waves-light btn-large socialBtn") Twitter
+                i(class="material-icons left fa fa-twitter")
+            div(class="col s12 m4") 
+              a(class="waves-effect waves-light btn-large socialBtn" target="_blank") Google+
+                i(class="material-icons left fa fa-google-plus") 
+        br
+        br
+      div(class="parallax")
+        img(src="image/codingResize.png" alt="Unsplashed background img 2")
+
+    div(id="about" class="sectionAbout white-text")
+      div(class="about center about-container")
+        div(class="container")
+          div(class="row")
+            div(class="col s12")
+              h4 Acerca de nosotros
+              hr(class="blanco")
+              p(class="center size1 light") 
+                | Desertech es una empresa Mexicana fundada en el año 2015 con sede en
+                | Puerto Peñasco, dedicada a crear software a la medida de las necesidades
+                | del cliente, con las mejores tecnologías del momento y diversas alternativas
+                | para encontrar su solución, ya sea web, móvil o sistemas de escritorio.
+              img(src="image/mifoto.png" alt="autor image" class="circle z-depth-3 responsive-img")
+              h5 Espinoza A. Paul.
+              h8 Developer
+
+    div(id="service" class="container")
+      div(class="section")
+        h4(class="center") Servicios
+        hr
+
+        div(class="row")
+          div(class="col s12 m4")
+            div(class="icon-block")
+              h2(class="center darken-4")
+                i(class="mdi-action-polymer")
+              h5(class="center") Desarrollo de software
+              p(class="light") 
+                | Creamos soluciones que le permitan a su empresa planear, ejecutar,
+                | controlar y mejorar la calidad de su proceso productivo. Además de
+                | adaptarlas a sus necesidades y desarrolladas bajo los mayores
+                | estándares de calidad.
+
+          div(class="col s12 m4")
+            div(class="icon-block")
+              h2(class="center darken-4")
+                i(class="mdi-device-devices")
+              h5(class="center") Soluciones para todas las plataformas
+              p(class="light") 
+                | Sabemos que la solución no siempre es la misma, pero lo que sí sabemos es
+                | transformar su idea, proyecto o visión en realidad independientemente sea
+                | móvil, web o desktop, siguiendo con los más altos estándares de ingeniería de software..
+          div(class="col s12 m4")
+            div(class="icon-block")
+              h2(class="center darken-4")
+                i(class="material-icons md-40") build
+              h5(class="center") Soporte
+              p(class="light")
+                | En Desertech sabemos lo importante que pueden llegar a ser tus sistemas para tu operación diaria y lo grave que puede ser que ocurra un problema con el mismo.
+                | Nuestras soluciones de soporte son ideales para ofrecer tanto una constante asesoría técnica como estrategias de prevención y solución de incidentes.
+    div(class="section" id="portafolio")
+      h4(class="center") Portafolio
+      hr
+      div(class="imgFolio row")
+        div(class="imgFolio col s12")
+          div(class="imgFolio col s12 m4")
+            a(class="modal-trigger tooltipped" data-position="bottom" data-delay="50" data-tooltip="I am tooltip" href="#modal1")
+              img( class="responsive-img" src="image/bgn-responsive.jpg" alt="html 5 and css 3")
+            div(id="modal1" class="modal")
+              div(class="modal-content")
+                h4 HTML 5 & CSS 3
+                p 
+                  | Todo negocio o empresa es diferente, es por eso que se debe analizar
+                  | primero cada una de las necesidades de estos y así lograr establecer las 
+                  | tecnologías adecuadas que se utilizaran en cada sitio web. Hoy en día 
+                  | lo más novedoso y eficaz en el desarrollo de páginas web, es el nuevo lenguaje 
+                  | HTML5 y CSS3, entre otras muchas cosas permiten hacer, los sitios web de forma responsiva, esto tiene 
+                  | como ventaja que el diseño se vea espectacular sin importar el dispocitivo
+                  | o tamaño de pantalla que usemos.
+              div(class="modal-footer")
+                a(ref="#modal1" class="modal-action modal-close waves-effect waves-green btn-flat") Closed
+
+          div(class="imgFolio col s12 m4")
+            a(class="modal-trigger" href="#modal2")
+              img( class="responsive-img"  src="image/bgn-socialADS.jpg" alt="Social ADS")
+            div(id="modal2" class="modal")
+              div(class="modal-content")
+                h4 Social ADS
+                h6 Entendemos tu negocio, llegamos a tus clientes.
+                p  
+                  | Estrategias de posicionamiento, SEO, SEM, Análisis de competencia,
+                  | Branding, Redes Sociales, Desarrollo de contenido, Campañas de e-mail Marketing,
+                  | Gestión de contenidos, Informes y estadísticas.
+                  | Todo esto es imprescindible para conectar con sus targets.
+                  | Las posibilidades son muchas, pero cada medio tiene sus formatos y nosotros te podemos ayudar.
+              div(class="modal-footer")
+                a(ref="#modal1" class=" modal-action modal-close waves-effect waves-green btn-flat") Closed
+          
+          div(class="imgFolio col s12 m4")
+            a(class="modal-trigger" href="#modal3")
+              img( class="responsive-img"  src="image/bgn-android.jpg" alt="Aplicaciones ANDROID")
+            div(id="modal3" class="modal")
+              div(class="modal-content")
+                h4 ANDROID
+                p(class="center")
+                  | Desarrollamos Apps Móviles para todo tipo y tamaño de empresas y
+                  | negocios que desean crecer y generar Nuevas Oportunidades de Crecimiento
+                  | e Incrementar sus Ventas mediante los siguientes Servicios:
+                  br
+                  | Desarrollo de Apps Móviles Nativas para Smartphones y Tablets 
+                  br
+                  | Desarrollo de Aplicaciones Multiplataforma y Web-apps
+              div(class="modal-footer")
+                a(ref="#modal1" class=" modal-action modal-close waves-effect waves-green btn-flat") Closed
+        
+        div(class="imgFolio col s12")
+
+          div(class="imgFolio col s12 m4")
+            a(class="modal-trigger" href="#modal4")
+              img( class="responsive-img"  src="image/bgn-nodejs-smoke.jpg" alt="desarrollo en node.js")
+            div(id="modal4" class="modal")
+              div(class="modal-content")
+                h4 NODE.JS 
+                p 
+                  | Con node.js creamos soluciones diseñadas especialmente para su organización; que le permitan
+                  | automatizar, monitorear y centralizar información; explotando las ventajas de estar conectados a internet.
+              div(class="modal-footer")
+                a(ref="#modal1" class=" modal-action modal-close waves-effect waves-green btn-flat") Closed
+
+          div(class="imgFolio col s12 m4")
+            a(class="modal-trigger" href="#modal5")
+              img( class="responsive-img"  src="image/bgn-csharp-smoke.jpg" alt="C#, ASP.NET & MVC FRAMEWORK")
+            div(id="modal5" class="modal")
+              div(class="modal-content")
+                h4 C#, ASP.NET & MVC FRAMEWORK
+                p
+                  | ¿Tienes algún negocio que involucren varios procesos?, no te preocupes nosotros te construimos 
+                  | tu sistema a la medida, según el proceso que involucre tu día a día y/o necesidades, gracias al 
+                  | desarrollo integral con C# y los frameworks más poderosos de Microsoft, logrando 
+                  | hacer las páginas web y sistemas más robustos y amigables.
+              div(class="modal-footer")
+                a(ref="#modal1" class=" modal-action modal-close waves-effect waves-green btn-flat") Closed
+          
+          div(class="imgFolio col s12 m4")
+            a(class="modal-trigger" href="#modal6")
+              img( class="responsive-img"  src="image/bgn-sql-smoke.jpg" alt="base de datos")
+            div(id="modal6" class="modal")
+              div(class="modal-content")
+                h4 DATABASE
+                p 
+                  | Ofrecemos el desarrollo de bases de datos, construyendo soluciones para
+                  | el fin que requiera su organización, dando como resultado un sistema
+                  | centralizado, eficiente, seguro, accesible, simplificando sus procesos
+                  | de negocio y haciéndolos más eficientes.
+              div(class="modal-footer")
+                a(ref="#modal1" class=" modal-action modal-close waves-effect waves-green btn-flat") Closed
+    
+    div(class="container contact" id="contact")
+      h4(class="center") Contáctanos
+      hr
+      p(class="center size1") Listo para iniciar su próximo proyecto con nosotros? Eso es genial! Llámenos o envíenos un correo electrónico y nos pondremos en contacto con usted tan pronto como sea posible!
+      div(class="row")
+        
+        div(class="col s12 m6 l6")
+          div(class="row")
+            form(class="col s12" action="/enviar" role="form" method="POST")
+              div(class="row")
+                label= title
+                div(class="input-field col s6")
+                  input(id="user_email" type="text" name="email" class="validate")
+                  label(for="user_email") Email
+                div(class="input-field col s6")
+                  input(id="user_subject" type="text" name="subject" class="validate")
+                  label(for="user_subject") subject
+              div(class="row")
+                div(class="input-field col s12")
+                  textarea(id="textarea1" name="message" class="materialize-textarea")
+                  label(for="texttarea1") your message
+                div(class="center")
+                  button(class="center btn waves-effect waves-light" type="submit" name="action") Submit
+                    i(class="mdi-content-send right")
+
+
+        div(class="center col s12 m6 l6 contact-holder")
+          h5
+            i(class="material-icons md-36") room
+          p(class="center") Av.Constitución entre Salvador Cabrales y Ramón Figueroa, #385B, CP 83550, Puerto Peñasco, Son México.
+          h5
+            i(class="material-icons md-36") call
+          p 
+            | +52 638 107 4610
+            br
+            |  383 7480 
+          h5
+            i(class="material-icons md-36") email
+          p
+            a(href="mailto:paul_spinoza@hotmail.com") paul_spinoza@hotmail.com
+            br
+            a(href="mailto:paul_spinoza@yahoo.com") paul_espinoza@desertech.mx
+    
+    div(class="section no-pad-bot")
+      div(class="mapa mapa-container" id="mapa")
+  // Javasrcipt Maps
+  script(type="text/javascript" src='http://maps.google.com/maps/api/js?sensor=false')
+  script(type="text/javascript" src="/js/maps.js")
+  

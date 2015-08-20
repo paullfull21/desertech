@@ -1,0 +1,89 @@
+doctype html
+html(lang="en" class="no-js")
+  head
+    title Desertech
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no")
+    // CSS
+    link(rel="stylesheet" href="css/materialize.css" type="text/css" media="screen,projection")
+    link(rel="stylesheet" href="css/style.css" type="text/css" media="screen,projection")
+    link(rel="stylesheet" href="css/animations.min.css" type="text/css")
+    link(rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons")
+    link(rel="stylesheet" href="font/font-awesome-4.3.0/css/font-awesome.min.css")
+    // Javasrcipt
+    script(type="text/javascript" src='http://maps.google.com/maps/api/js?sensor=false')
+    script(type="text/javascript" src='js/maps.js')
+
+  body
+    nav(nav class="white" role="navigation")
+      div(class="nav-wrapper container")
+        a(id="logo-container" href="" class="brand-logo")
+        img(id="logo" style="height:100px;width:250px;" src="image/Desertech-R.png")
+        ul(class="right hide-on-med-and-down")
+          li
+            a(href="#") Home
+          li
+            a(href="#service") Service
+          li
+            a(href="#about") About
+          li
+            a(href="#contact") Contact
+
+        ul(id="nav-mobile" class="side-nav")
+          li
+            a(href="") Home
+          li
+            a(href="#service") Service
+          li
+            a(href="#about") About
+          li
+            a(href="") Contact
+
+    block content
+
+    footer(class="page-footer blue")
+      div(class="container")
+        div(class="row")
+          div(div class="col l6 s12")
+            h5(class="white-text") Company Bio
+            p(class="grey-text text-lighten-4") We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.
+          div(class="col l3 s12")
+            h5(class="white-text") Settings
+            ul
+              li 
+                a(class="white-text" href="#!") About
+              li 
+                a(class="white-text" href="#!") Blog
+              li 
+                a(class="white-text" href="#!") Contact
+              li 
+                a(class="white-text" href="#!") Portafolio
+          div(class="col l3 s12")
+            h5(class="white-text") Connect
+            ul
+              li
+                i(class="fa fa-github fa-lg moveIcon") 
+                a(class="white-text" href="#!") Github
+              li
+                i(class="fa fa-google-plus fa-lg moveIcon")
+                a(class="white-text" href="#!") Google+
+              li
+                i(class="fa fa-pinterest fa-lg moveIcon")
+                a(class="white-text" href="#!") Pinterest
+              li
+                i(class="fa fa-twitter fa-lg moveIcon") 
+                a(class="white-text" href="#!") Twitter
+      div(class="footer-copyright")
+        div(class="container") Made body
+          a(class="grey-text text-lighten-3" href="http://materializecss.com") Materialize
+
+    script(src="https://code.jquery.com/jquery-2.1.1.min.js")
+    script(src="js/materialize.js")
+    script(src="js/materializeFuncion.js")
+    script(src="js/init.js")
+
+    script(src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js")
+    script(type="text/javascript" src="js/animations.min.js")
+    script(type="text/javascript" src="js/appear.min.js")
+    script(type="text/javascript" src="js/backbone.js")
+    script(type="text/javascript" src="js/smoothscroll.min.js")

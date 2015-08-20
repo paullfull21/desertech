@@ -1,0 +1,179 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+.about {
+  background-color: #2196F3;
+  height: 380px;
+  width: 100%;
+  display: inline-block;
+  float: none;
+}
+.about-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+}
+  .about-container .sectionAbout {
+    width: 100%;
+  }
+
+.connectSocial li {
+  margin-left: 8px;
+  margin-bottom: 10px;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+hr {
+    max-width: 50px;
+    border-color: #2196F3;
+    border-width: 3px;
+}
+
+hr.blanco {
+    border-color: #FFFFFF;
+}
+
+hr.verde {
+    border-color: #4CAF50;
+}
+
+.imgFolio {
+  /*float: left;*/
+  padding: 0 0rem !important;
+  line-height: 0;
+}
+
+#logo {
+  height: 268px;
+  width: 938px;
+}
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-40 { font-size: 44px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-120 { font-size: 120px; }
+
+.md-mio {
+  font-size: 3.56rem;
+}
+
+.moveIcon {
+  margin-right: 9px;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+nav {
+  height: 95px;
+}
+
+.marginTop {
+  margin-top: -5px !important;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 570px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+.mapa {
+  height: 380px;
+  width: 100%;
+  display: inline-block;
+  float: none;
+}
+.mapa-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+}
+  .mapa-container .sectionMap {
+    width: 100%;
+  }
+
+.size1 {
+  font-size: 1.2em;
+}
+
+.size2 {
+  font-size: 2em;
+}
+
+.socialBtn {
+  margin-top: 50px;
+  border: 2px solid #4CAF50;
+  background-color: transparent;
+  text-transform: uppercase;
+}
+
+a.socialBtn:hover {
+  color: #000000;
+  background-color: #4CAF50;
+  text-decoration: none;
+}
+
+.blogoblique {
+    font-style: oblique;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  .socialBtn {
+    margin: 10px 10px 10px 10px;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  .socialBtn {
+    margin: 10px 10px 10px 10px;
+  }
+  .divCenter {
+    text-align: center;
+  }
+}
+
+
+.icon-block {
+  padding: 0 15px;
+}
+
+footer.page-footer {
+  margin: 0;
+}

@@ -1,0 +1,107 @@
+doctype html
+html(lang="es" class="no-js")
+  head
+    title Desertech
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no")
+    meta(name="description" content="Desarrollo de Software en México")
+    meta(name="keywords" content="HTML,CSS,JavaScript,desarrollo de software,desarrollo de software México,marketing,paginas web,aplicaciones,android,sistemas,base de dato")
+    meta(name="author" content="Espinoza Alcala Paul")
+    // CSS
+    link(rel="stylesheet" href="/css/materialize.css" type="text/css" media="screen,projection")
+    link(rel="stylesheet" href="/css/style.css" type="text/css" media="screen,projection")
+    link(rel="stylesheet" href="/css/animations.min.css" type="text/css")
+    link(rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons")
+    link(rel="stylesheet" href="/font/font-awesome-4.3.0/css/font-awesome.min.css")
+
+  body
+    nav(nav class="white" role="navigation")
+      div(class="nav-wrapper container")
+        a(id="logo-container" href="#" class="brand-logo")
+          img(id="logo" alt="Desertech" style="height:85px; width:260px;" src="/image/Logo-Banner-Original.png")
+        ul(class="right hide-on-med-and-down")
+          li
+            a(href="/") Home
+          li
+            a(href="#about") About
+          li
+            a(href="#service") Servicios
+          li
+            a(href="#portafolio")  Portafolio
+          li
+            a(href="#contact") Contáctanos
+
+        ul(id="nav-mobile" class="side-nav")
+          li
+            a(href="/") Home
+          li
+            a(href="#about") About
+          li
+            a(href="#service") Servicios
+          li
+            a(href="#portafolio")  Portafolio
+          li
+            a(href="#contact") Contáctanos
+        a(href="/" data-activates="nav-mobile" class="button-collapse")
+          i(class="mdi-navigation-menu")
+
+    block content
+
+    footer(class="marginTop page-footer blue")
+      div(class="container")
+        div(class="row")
+          div(div class="col l6 s12")
+            h5(class="white-text") Company Bio
+            p(class="grey-text text-lighten-4") No te preocupes no existe problema que no se pueda solucionar, si tienes dudas puedes contactarnos en nuestra redes sociales
+            //Inserta esta etiqueta donde quieras que aparezca Botón +1.
+            div(class="g-plusone")
+
+          div(class="col l3 s12")
+            h5(class="white-text") Settings
+            ul
+              li 
+                a(class="white-text" href="#about") About
+              li 
+                a(class="white-text" href="#service") Servicios
+              li 
+                a(class="white-text" href="#portafolio") Portafolio
+              li 
+                a(class="white-text" href="#contact") Contáctanos
+              
+          div(class="col l3 s12")
+            h5(class="white-text") Siguenos
+            ul(class="connectSocial")
+              li 
+                a(class="white-text center" target="_blank" href="https://github.com/Desertech") GitHub
+                  i(class="left fa fa-github material-icons md-24")
+              li
+                a(class="white-text center" target="_blank" href="#!") Google+
+                  i(class="left fa fa-google-plus material-icons md-24")
+              li
+                a(class="white-text center" target="_blank" href="https://www.pinterest.com/desertech/") Pinterest
+                  i(class="pinterest left fa fa-pinterest material-icons md-24")
+              li
+                a(class="white-text center" target="_blank" href="https://twitter.com/desertechmx") Twitter
+                  i(class="left fa fa-twitter material-icons md-24")
+      div(class="footer-copyright")
+        div(class="container") Copyright &copy; #{new Date().getFullYear()} 
+          a(class="grey-text text-lighten-3" href="http://desertech.mx") Desertech.mx
+
+    script(type="text/javascript" src="/js/GoogleAnalytics.js")
+    script(src="https://code.jquery.com/jquery-2.1.1.min.js")
+    script(src="/js/materialize.js")
+    script(src="/js/materializeFuncion.js")
+    script(src="/js/init.js")
+
+    script(src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js")
+    script(type="text/javascript" src="/js/animations.min.js")
+    script(type="text/javascript" src="/js/appear.min.js")
+    script(type="text/javascript" src="/js/smoothscroll.min.js")
+
+    script(type="text/javascript").
+      window.___gcfg = {lang: 'es-419'};
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/platform.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();

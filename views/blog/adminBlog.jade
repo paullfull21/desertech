@@ -1,0 +1,46 @@
+extend ../layout.jade
+block content
+	div(class="container")
+		div(class="row")
+			div(class="col s12 m9 l10")
+				div(class="col s12 m8 offset-m3 l6 offset-l3")
+					div(class="card-panel grey lighten-5 z-depth-1")
+						div(class="row valign-wrapper")
+							div(class="col s4")
+								img(src="/image/mifoto.png" alt="" class="circle responsive-img")
+							div(class="col s10")
+								span(class="black-text")
+									h5 #{user.username}
+									a(href="/logout") Logout
+
+		div(class="col s12")
+			table
+				thead
+					tr
+						th(data-field="id") # 
+						th(data-field="Title") Title
+						th(data-field="name") Date
+						th(data-field="Autor") Autor
+						th(data-field="Image") Image
+						th(data-field="Options") Options
+				tbody
+					tr
+						td 1
+						td Eclair
+						td 20 12 2015
+						td paul Espinoza
+						td image.png
+						td
+							a(href="") Delate
+							=" | "
+							a(href="") Editar
+					tr
+						td 2
+						td Froyo
+						td 23 12 2015
+						td paul Espinoza
+						td image2.png
+						td
+							a(href="") Delate
+							=" | "
+							a(href="") Editar

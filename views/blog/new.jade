@@ -1,0 +1,47 @@
+extend ../layout.jade
+block content
+	div(class="container")
+		div(class="row")
+			div(class="col s12")
+				form(method="post" action="/new" style="margin-top:1.5em;" enctype="multipart/form-data")
+					div(class="row")
+						div(class="input-field col s12")
+							input(id="title" name="title" type="text" class="validate")
+							label(for="title") Titulo
+						div(class="input-field col s12")
+							input(id="descrip" name="descrip" type="text" class="validate")
+							label(for="descrip") Descripción
+						div(class="input-field col s12")
+							textarea(id="textarea1" name="blogg" type="text" class="materialize-textarea")
+							label(for="textarea1") Blog
+						div(class="input-field col s12")
+							input(type="date" name="datePost" class="datepicker")
+
+						div(class="input-field col s12")
+							div(class="file-field input-field")
+								input(class="file-path validate" name="imgBlogUrl" placeholder="Imagen del Autor" type="text")
+								div(class="btn")
+									span File
+									input(type="file")
+						
+						div(class="input-field col s12")
+							input(id="autor" name="autor" type="text" class="validate")
+							label(for="autor") Autor
+						div(class="input-field col s12")
+							div(class="file-field input-field")
+								input(class="file-path validate" name="imgAutorUrl" placeholder="Imagen del Autor" type="text")
+								div(class="btn")
+									span File
+									input(type="file")
+						div(class="input-field col s12")
+							input(id="linkFB" name="linkFB" type="text" class="validate")
+							label(for="linkFB") Link Facebook
+						div(class="input-field col s12")
+							input(id="linkTW" name="linkTW" type="text" class="validate")
+							label(for="linkTW") Link Twitter
+						div(class="input-field col s12")
+							input(id="linkGH" name="linkGH" type="text" class="validate")
+							label(for="linkGH") Link GiHub
+		
+						input(type="submit" class="btn" value="Gurdar")
+
